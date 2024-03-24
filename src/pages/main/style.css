@@ -1,6 +1,6 @@
 .main {
   margin-left: 15px;
-  padding: 2px;
+  padding: 5px;
 }
 button {
   appearance: auto;
@@ -26,4 +26,13 @@ button {
   border-style: outset;
   border-color: buttonborder;
   border-image: initial;
+}
+.counter {
+  font-size: 24px; 
+}
+
+
+
+.main.dynamic-margin {
+  margin-left: calc(15px * var(--index));
 }
