@@ -18,7 +18,7 @@ const Main = ({initial}) => {
   return (
     <div className={`main flex `}>
       <div className="flex">
-        <div className="counter">-</div>
+        <div className="counter">-{initial}</div>
         <button onClick={() => handler("+")}>+</button>
         <button onClick={() => handler("-")}>-</button>
       </div>
